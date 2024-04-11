@@ -1,0 +1,11 @@
+steps: 
+create account on github 
+downld git for windows 
+create local repo
+create file 
+commit 
+push 
+pull 
+rebase 
+merge 
+branch 

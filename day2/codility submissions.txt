@@ -1,0 +1,19 @@
+Iterations:
+1.https://app.codility.com/demo/results/trainingUKZ38E-S5U/
+
+Arrays:
+2.https://app.codility.com/demo/results/trainingCPBPKJ-JVG/
+3.https://app.codility.com/demo/results/trainingQ6BP98-73P/
+
+Time Complexiy: 
+4.https://app.codility.com/demo/results/training7WB2RP-WHB/
+5.https://app.codility.com/demo/results/trainingQE7N5K-SR9/
+6.https://app.codility.com/demo/results/trainingPCM9ZV-64D/
+
+p4: 
+7.https://app.codility.com/demo/results/trainingXCHZW9-DG4/
+8.https://app.codility.com/demo/results/trainingASMVB3-Z6A/
+
+sorting: 
+9.https://app.codility.com/demo/results/trainingHPHJQS-B8U/
+10.https://app.codility.com/demo/results/training6YZ87H-FWB/
