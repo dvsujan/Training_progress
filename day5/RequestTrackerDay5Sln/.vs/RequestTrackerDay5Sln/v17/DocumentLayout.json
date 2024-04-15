@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\progress\\day5\\RequestTrackerDay5Sln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{572BBB12-C5AF-471A-B45D-E6F4A886486B}|RequestTrackerDay5\\RequestTrackerDay5.csproj|c:\\users\\vc\\desktop\\progress\\day5\\requesttrackerday5sln\\requesttrackerday5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572BBB12-C5AF-471A-B45D-E6F4A886486B}|RequestTrackerDay5\\RequestTrackerDay5.csproj|solutionrelative:requesttrackerday5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BCEE5B-6F00-4A5F-A4BA-E67EA665EB3E}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|c:\\users\\vc\\desktop\\progress\\day5\\requesttrackerday5sln\\requesttrackermodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BCEE5B-6F00-4A5F-A4BA-E67EA665EB3E}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|solutionrelative:requesttrackermodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 255,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\progress\\day5\\RequestTrackerDay5Sln\\RequestTrackerDay5\\Program.cs",
+              "RelativeDocumentMoniker": "RequestTrackerDay5\\Program.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\progress\\day5\\RequestTrackerDay5Sln\\RequestTrackerDay5\\Program.cs",
+              "RelativeToolTip": "RequestTrackerDay5\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T04:32:42.484Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 260,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\progress\\day5\\RequestTrackerDay5Sln\\RequestTrackerModelLibrary\\Employee.cs",
+              "RelativeDocumentMoniker": "RequestTrackerModelLibrary\\Employee.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\progress\\day5\\RequestTrackerDay5Sln\\RequestTrackerModelLibrary\\Employee.cs",
+              "RelativeToolTip": "RequestTrackerModelLibrary\\Employee.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T06:29:17.044Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

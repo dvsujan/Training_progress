@@ -3,7 +3,11 @@
 namespace CardValidation
 {
     internal class Program
-    {
+    {/// <summary>
+    /// This method checks if the input is a valid number
+    /// </summary>
+    /// <param name="input"></param>
+    /// <returns></returns>
         static bool IsValidNumber(string input)
         {
             foreach (char c in input)
