@@ -17,3 +17,8 @@ Concepts applied:
 1. Inheritance  
 2. Polymorphism  
 3. Encapsulation  
+
+# day7 
+Implemented 3 layer application in c# including business logic , data logic and their respective interfaces. By creating a Clinic Application  
+
+
