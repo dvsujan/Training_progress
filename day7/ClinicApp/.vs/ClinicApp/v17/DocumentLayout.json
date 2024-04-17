@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\Training_progress\\day7\\ClinicApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB834CE-394E-4A5D-ABB1-10C4AF8E335F}|ClinicBLLogivc\\ClinicBLLogivc.csproj|c:\\users\\vc\\desktop\\training_progress\\day7\\clinicapp\\clinicbllogivc\\patientbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB834CE-394E-4A5D-ABB1-10C4AF8E335F}|ClinicBLLogivc\\ClinicBLLogivc.csproj|solutionrelative:clinicbllogivc\\patientbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB834CE-394E-4A5D-ABB1-10C4AF8E335F}|ClinicBLLogivc\\ClinicBLLogivc.csproj|c:\\users\\vc\\desktop\\training_progress\\day7\\clinicapp\\clinicbllogivc\\doctorbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB834CE-394E-4A5D-ABB1-10C4AF8E335F}|ClinicBLLogivc\\ClinicBLLogivc.csproj|solutionrelative:clinicbllogivc\\doctorbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB834CE-394E-4A5D-ABB1-10C4AF8E335F}|ClinicBLLogivc\\ClinicBLLogivc.csproj|c:\\users\\vc\\desktop\\training_progress\\day7\\clinicapp\\clinicbllogivc\\appontmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB834CE-394E-4A5D-ABB1-10C4AF8E335F}|ClinicBLLogivc\\ClinicBLLogivc.csproj|solutionrelative:clinicbllogivc\\appontmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB834CE-394E-4A5D-ABB1-10C4AF8E335F}|ClinicBLLogivc\\ClinicBLLogivc.csproj|c:\\users\\vc\\desktop\\training_progress\\day7\\clinicapp\\clinicbllogivc\\ipatientblservie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB834CE-394E-4A5D-ABB1-10C4AF8E335F}|ClinicBLLogivc\\ClinicBLLogivc.csproj|solutionrelative:clinicbllogivc\\ipatientblservie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB834CE-394E-4A5D-ABB1-10C4AF8E335F}|ClinicBLLogivc\\ClinicBLLogivc.csproj|c:\\users\\vc\\desktop\\training_progress\\day7\\clinicapp\\clinicbllogivc\\idoctorblservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB834CE-394E-4A5D-ABB1-10C4AF8E335F}|ClinicBLLogivc\\ClinicBLLogivc.csproj|solutionrelative:clinicbllogivc\\idoctorblservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 210,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDoctorBLService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day7\\ClinicApp\\ClinicBLLogivc\\IDoctorBLService.cs",
+              "RelativeDocumentMoniker": "ClinicBLLogivc\\IDoctorBLService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day7\\ClinicApp\\ClinicBLLogivc\\IDoctorBLService.cs",
+              "RelativeToolTip": "ClinicBLLogivc\\IDoctorBLService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T12:03:26.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPatientBLServie.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day7\\ClinicApp\\ClinicBLLogivc\\IPatientBLServie.cs",
+              "RelativeDocumentMoniker": "ClinicBLLogivc\\IPatientBLServie.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day7\\ClinicApp\\ClinicBLLogivc\\IPatientBLServie.cs",
+              "RelativeToolTip": "ClinicBLLogivc\\IPatientBLServie.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T12:02:18.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppontmentBL.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day7\\ClinicApp\\ClinicBLLogivc\\AppontmentBL.cs",
+              "RelativeDocumentMoniker": "ClinicBLLogivc\\AppontmentBL.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day7\\ClinicApp\\ClinicBLLogivc\\AppontmentBL.cs",
+              "RelativeToolTip": "ClinicBLLogivc\\AppontmentBL.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T11:37:40.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientBL.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day7\\ClinicApp\\ClinicBLLogivc\\PatientBL.cs",
+              "RelativeDocumentMoniker": "ClinicBLLogivc\\PatientBL.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day7\\ClinicApp\\ClinicBLLogivc\\PatientBL.cs",
+              "RelativeToolTip": "ClinicBLLogivc\\PatientBL.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T10:29:32.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoctorBL.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day7\\ClinicApp\\ClinicBLLogivc\\DoctorBL.cs",
+              "RelativeDocumentMoniker": "ClinicBLLogivc\\DoctorBL.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day7\\ClinicApp\\ClinicBLLogivc\\DoctorBL.cs",
+              "RelativeToolTip": "ClinicBLLogivc\\DoctorBL.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwCAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T11:02:08.954Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
