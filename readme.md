@@ -21,4 +21,7 @@ Concepts applied:
 # day7 
 Implemented 3 layer application in c# including business logic , data logic and their respective interfaces. By creating a Clinic Application  
 
+# day8
+Structs , Enumus , Records , overloading , overriding  
+Implemented Busines logic to the employee Request tracker app
 
