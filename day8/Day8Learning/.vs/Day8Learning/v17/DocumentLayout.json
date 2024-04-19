@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\Training_progress\\day8\\Day8Learning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{533C1905-81AA-431B-ADA5-8A7C3C056D5E}|Day8Learning\\Day8Learning.csproj|c:\\users\\vc\\desktop\\training_progress\\day8\\day8learning\\day8learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{533C1905-81AA-431B-ADA5-8A7C3C056D5E}|Day8Learning\\Day8Learning.csproj|solutionrelative:day8learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 210,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day8\\Day8Learning\\Day8Learning\\Program.cs",
+              "RelativeDocumentMoniker": "Day8Learning\\Program.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day8\\Day8Learning\\Day8Learning\\Program.cs",
+              "RelativeToolTip": "Day8Learning\\Program.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAuwFMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T05:26:40.972Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
