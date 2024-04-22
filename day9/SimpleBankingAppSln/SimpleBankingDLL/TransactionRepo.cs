@@ -7,7 +7,7 @@ using SimpleBankingAppModels;
 
 namespace SimpleBankingDLL
 {
-    internal class TransactionRepo: IRepo<int, Transaction>
+    public class TransactionRepo: IRepo<int, Transaction>
     {
         readonly Dictionary<int, Transaction> _transactions;
         public TransactionRepo()

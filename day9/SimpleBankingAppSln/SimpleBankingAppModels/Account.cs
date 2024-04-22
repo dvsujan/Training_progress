@@ -21,11 +21,19 @@ namespace SimpleBankingAppModels
             AccountType = String.Empty;
         }
 
-        public Account(int userId, float balance, string accountType)
+        public Account(int userId , float balance, string accountType)
         {
             UserId = userId;
             Balance = balance;
             AccountType = accountType;
+        }
+        public override bool Equals(object? obj)
+        {
+            return this.id.Equals(((Account)obj).id);
+        }
+        public override string ToString()
+        {
+            return $"Account Id: {id}, User Id: {UserId}, Balance: {Balance}, Account Type: {AccountType}";
         }
     }
 }

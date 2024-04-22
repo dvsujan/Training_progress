@@ -1,13 +1,18 @@
 ﻿using SimpleBankingDLL;
 using SimpleBankingAppModels;
+using SimpleBankingBL.Exceptions; 
 namespace SimpleBankingBL
 {
     public class UserBL : IUserService
     {
         readonly IRepo<int, User> _userRreposotory; 
-        public UserBL(IRepo<int, User> userRepo)
+        public UserBL()
         {
-            _userRreposotory = userRepo; 
+            _userRreposotory = new UserRepo() ; 
+        }
+        public User AddUser(User user)
+        {
+            return _userRreposotory.Add(user);
         }
 
         public User ChangePassword(string email, string oldPassword, string newPassword)

@@ -1,10 +1,10 @@
 ﻿using System.Runtime.Serialization;
 
-namespace SimpleBankingBL
+namespace SimpleBankingBL.Exceptions
 {
     internal class UserAlreadyExistsException : Exception
     {
-        string message = String.Empty; 
+        string message = string.Empty;
         public UserAlreadyExistsException()
         {
             message = "User already exists";

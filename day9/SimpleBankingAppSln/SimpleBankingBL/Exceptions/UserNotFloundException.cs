@@ -1,11 +1,11 @@
 ﻿using System.Runtime.Serialization;
 
-namespace SimpleBankingBL
+namespace SimpleBankingBL.Exceptions
 {
     [Serializable]
     internal class UserNotFloundException : Exception
     {
-        string message = String.Empty; 
+        string message = string.Empty;
         public UserNotFloundException()
         {
             message = "User not found";

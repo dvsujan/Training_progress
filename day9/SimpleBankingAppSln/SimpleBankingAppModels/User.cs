@@ -26,5 +26,9 @@
         {
             return this.id.Equals(((User)obj).id);
         }
+        public override string ToString()
+        {
+            return $"User Id: {id}, Name: {name}, Email: {email}, Password: {password}, Account Id: {accountId}";
+        }
     }
 }

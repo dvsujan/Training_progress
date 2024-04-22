@@ -7,7 +7,7 @@ using SimpleBankingAppModels;
 
 namespace SimpleBankingDLL
 {
-    internal class AccountRepo : IRepo<int, Account>
+    public class AccountRepo : IRepo<int, Account>
     {
         readonly Dictionary<int, Account> _accounts;
         public AccountRepo()
