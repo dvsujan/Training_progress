@@ -18,7 +18,18 @@ namespace SimpleBankingBL
         /// </summary>
         /// <param name="user"></param>
         /// <returns></returns>
-        public User AddUser(User user) => _userRreposotory.Add(user);
+        public User AddUser(User user)
+        {
+            List<User> users = _userRreposotory.GetAll();
+            for (int i = 0; i < users.Count; i++)
+            {
+                if (users[i].email == user.email)
+                {
+                    throw new UserAlreadyExistsException();
+                }
+            }
+            return _userRreposotory.Add(user);
+        }
         /// <summary>
         /// changes password fo the user 
         /// </summary>
