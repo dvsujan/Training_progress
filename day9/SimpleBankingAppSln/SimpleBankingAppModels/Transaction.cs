@@ -21,7 +21,9 @@ namespace SimpleBankingAppModels
         public int toId { get; set;  }
         public int fromId { get; set; }
         public TransactionType transactionType { get; set; }
-
+        /// <summary>
+        /// Default Constructor
+        /// </summary>
         public Transaction()
         {
             id = -1;
@@ -30,7 +32,15 @@ namespace SimpleBankingAppModels
             toId = -1;
             fromId = -1;
         }
-        
+
+        /// <summary>
+        /// parameterized constructor 
+        /// </summary>
+        /// <param name="timestamp">timestamp of the user</param>
+        /// <param name="amount">amount to be initally added </param>
+        /// <param name="toId"> to the user account </param>
+        /// <param name="fromId"> from user account </param>
+        /// <param name="type"> type of transactoin </param>
         public Transaction(DateTime timestamp, float amount, int toId, int fromId, TransactionType type)
         {
             this.timestamp = timestamp;
@@ -39,10 +49,20 @@ namespace SimpleBankingAppModels
             this.fromId = fromId;
             this.transactionType = type;
         }
+        /// <summary>
+        /// overrides the equals method
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
         public override bool Equals(object? obj)
         {
             return this.id.Equals(((Transaction)obj).id) ;
         }
+
+        /// <summary>
+        /// returns the object as string 
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return $"Transaction Id: {id}, Timestamp: {timestamp}, Amount: {amount}, To Id: {toId}, From Id: {fromId}, Transaction Type: {transactionType}";

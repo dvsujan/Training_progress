@@ -13,11 +13,20 @@ namespace SimpleBankingBL
     {
         readonly IRepo<int, Account> _accountRepo;
         readonly IRepo<int, Transaction> _transactionRepo; 
+        /// <summary>
+        /// default constructor
+        /// </summary>
         public AccountBL()
         {
             _accountRepo = new AccountRepo();
             _transactionRepo = new TransactionRepo();
         }
+        /// <summary>
+        /// create a new account for the user in db
+        /// </summary>
+        /// <param name="ac"></param>
+        /// <returns></returns>
+        /// <exception cref="AccountAlreadyExistsException"></exception>
         public Account CreateAccount(Account ac)
         {
              
@@ -29,6 +38,12 @@ namespace SimpleBankingBL
             }
              throw new AccountAlreadyExistsException();
         }
+        /// <summary>
+        /// deletes the user accoutn
+        /// </summary>
+        /// <param name="accountId"></param>
+        /// <returns></returns>
+        /// <exception cref="AccountNotFoundException"></exception>
 
         public Account DeleteAccount(int accountId)
         {
@@ -39,6 +54,14 @@ namespace SimpleBankingBL
             }
             throw new AccountNotFoundException();
         }
+
+        /// <summary>
+        /// deposits money to account
+        /// </summary>
+        /// <param name="accountId"></param>
+        /// <param name="amount"></param>
+        /// <returns></returns>
+        /// <exception cref="AccountNotFoundException"></exception>
 
         public Account Deposit(int accountId, float amount)
         {
@@ -56,6 +79,13 @@ namespace SimpleBankingBL
             
         }
 
+        /// <summary>
+        /// gets the account details
+        /// </summary>
+        /// <param name="accountId"></param>
+        /// <returns></returns>
+        /// <exception cref="AccountNotFoundException"></exception>
+
         public Account? GetAccount(int accountId)
         {
             List<Account> accounts = _accountRepo.GetAll();
@@ -68,11 +98,21 @@ namespace SimpleBankingBL
             }
             throw new AccountNotFoundException(); 
         }
+        /// <summary>
+        /// gets all the transactions 
+        /// </summary>
+        /// <returns></returns>
 
         public List<Transaction> getAllTransactions()
         {
             return _transactionRepo.GetAll();
         }
+
+        /// <summary>
+        /// get all the transactions of the user
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <returns></returns>
 
         public List<Transaction>TransactionsOfUser(int userId)
         {
@@ -87,6 +127,15 @@ namespace SimpleBankingBL
             }
             return usertransactions;
         }
+        /// <summary>
+        /// transfter money from one user to other based on id
+        /// </summary>
+        /// <param name="fromAccountId"></param>
+        /// <param name="toAccountId"></param>
+        /// <param name="amount"></param>
+        /// <returns></returns>
+        /// <exception cref="AccountNotFoundException"></exception>
+        /// <exception cref="InsufficientBalanceException"></exception>
 
         public Account Transfer(int fromAccountId, int toAccountId, float amount)
         {
@@ -119,7 +168,13 @@ namespace SimpleBankingBL
             _transactionRepo.Add(new Transaction(DateTime.Now, amount, toAccountId, fromAccountId, Transaction.TransactionType.Transfer));
             return fromAccount;
         }
-
+        /// <summary>
+        /// used to withdraw money from the account
+        /// </summary>
+        /// <param name="accountId"></param>
+        /// <param name="amount"></param>
+        /// <returns></returns>
+        /// <exception cref="AccountNotFoundException"></exception>
         public Account Withdraw(int accountId, float amount)
         {
             List<Account> accounts = _accountRepo.GetAll();

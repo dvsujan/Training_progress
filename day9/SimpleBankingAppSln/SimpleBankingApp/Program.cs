@@ -7,6 +7,36 @@ namespace SimpleBankingApp
 {
     internal class Program
     {
+        /// <summary>
+        /// validates the give email
+        /// </summary>
+        /// <param name="username">returns true or false</param>
+        /// <returns></returns>
+        static bool ValidateEmail(string username)
+        {
+            if (username.Contains("@") && username.Contains(".com"))
+            {
+                return true;
+            }
+            return false;
+        }
+        /// <summary>
+        /// validates the given password
+        /// </summary>
+        /// <param name="password"></param>
+        /// <returns></returns>
+        static bool ValidatePassword(string password)
+        {
+            if (password.Length < 8)
+            {
+                return false;
+            }
+            return true; 
+        }
+        /// <summary>
+        /// get integer input from the user with validation
+        /// </summary>
+        /// <returns></returns>
         static int getIntInput()
         {
             int id; 
@@ -16,6 +46,10 @@ namespace SimpleBankingApp
             }
             return id;  
         }
+        /// <summary>
+        /// get float input from the user with validation
+        /// </summary>
+        /// <returns></returns>
         static float getFloatInput()
         {
             float id; 
@@ -27,7 +61,10 @@ namespace SimpleBankingApp
         }
         public static UserBL userBL = new UserBL();
         public static AccountBL AccountBL = new AccountBL();
-        public static void userMenu()
+        /// <summary>
+        /// user menu 
+        /// </summary>
+        public static void UserMenu()
         {
             User LoggedInUser = null; 
             while (true)
@@ -168,6 +205,9 @@ namespace SimpleBankingApp
                 }
             }
         }
+        /// <summary>
+        /// admin menu
+        /// </summary>
         static void AdminMenu()
         {
             while (true)
@@ -185,8 +225,18 @@ namespace SimpleBankingApp
                         string name = Console.ReadLine();
                         Console.WriteLine("Enter email: ");
                         string email = Console.ReadLine();
+                        if (!ValidateEmail(email))
+                        {
+                            Console.WriteLine("Invalid email");
+                            break;
+                        }
                         Console.WriteLine("Enter password: ");
                         string password = Console.ReadLine();
+                        if (!ValidatePassword(password))
+                        {
+                            Console.WriteLine("Password must be atleast 8 characters long");
+                            break;
+                        }
                         Console.WriteLine("Minium Balance 5000\n ");
                         string choice1 = Console.ReadLine();
                         User user = new User(name, email, password, -1);
@@ -196,6 +246,7 @@ namespace SimpleBankingApp
                             User u = userBL.AddUser(user);
                             account.UserId = u.id;
                             account.Balance = 5000;
+                            account.AccountType = "Savings";
                             Account a = AccountBL.CreateAccount(account);
                             u.accountId = a.id;
                             User user1 = userBL.UpdateUser(u);
@@ -232,6 +283,10 @@ namespace SimpleBankingApp
                 }
             }
         }   
+        /// <summary>
+        /// verifies if the person logining in is admin or not
+        /// </summary>
+        /// <returns></returns>
         static bool LoginInAdmin()
         {
             Console.WriteLine("Enter admin username: ");
@@ -244,6 +299,10 @@ namespace SimpleBankingApp
             }
             return false;
         }   
+        /// <summary>
+        /// Entry point to the while application
+        /// </summary>
+        /// <param name="args"></param>
         private static void Main(string[] args)
         {
             while (true)
@@ -256,7 +315,7 @@ namespace SimpleBankingApp
                 switch (choice)
                 {
                     case 1:
-                        userMenu();
+                        UserMenu();
                         break;
                     case 2:
                         if (LoginInAdmin())

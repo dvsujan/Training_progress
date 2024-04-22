@@ -10,10 +10,17 @@ namespace SimpleBankingDLL
     public class TransactionRepo: IRepo<int, Transaction>
     {
         readonly Dictionary<int, Transaction> _transactions;
+        /// <summary>
+        /// default constructor
+        /// </summary>
         public TransactionRepo()
         {
             _transactions = new Dictionary<int, Transaction>();
         }
+        /// <summary>
+        /// generates a random id  for the transaction
+        /// </summary>
+        /// <returns></returns>
         public int GenerateId()
         {
             int id = 0; 
@@ -23,7 +30,11 @@ namespace SimpleBankingDLL
             } while (_transactions.ContainsKey(id));
             return id;
         }
-        
+        /// <summary>
+        /// addes a new transaction to the dictionary
+        /// </summary>
+        /// <param name="t"></param>
+        /// <returns></returns>        
         public Transaction? Add(Transaction t)
         {
             if (_transactions.ContainsValue(t))
@@ -35,6 +46,11 @@ namespace SimpleBankingDLL
             _transactions.Add(t.id, t);
             return t;
         }
+        /// <summary>
+        /// deletes a tranasction from the dictionary
+        /// </summary>
+        /// <param name="key"></param>
+        /// <returns></returns>
 
         public Transaction? Delete(int key)
         {
@@ -46,7 +62,11 @@ namespace SimpleBankingDLL
             }
             return null;
         }
-
+        /// <summary>
+        /// gets an account from the dict
+        /// </summary>
+        /// <param name="key"></param>
+        /// <returns></returns>
         public Transaction? Get(int key)
         {
             if (_transactions.ContainsKey(key))
@@ -55,12 +75,19 @@ namespace SimpleBankingDLL
             }
             return null;
         }
-
+        /// <summary>
+        ///  gets all transactions fom the dictionary
+        /// </summary>
+        /// <returns></returns>
         public List<Transaction> GetAll()
         {
             return _transactions.Values.ToList();
         }
-
+        /// <summary>
+        /// updates a transaction
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns></returns>
         public Transaction? Update(Transaction item)
         {
             if (_transactions.ContainsKey(item.id))
