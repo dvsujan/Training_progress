@@ -2,8 +2,7 @@
 
 namespace SimpleBankingBL.Exceptions
 {
-    [Serializable]
-    internal class AccountNotFoundException : Exception
+    public class AccountNotFoundException : Exception
     {
         string message = string.Empty;
         public AccountNotFoundException()

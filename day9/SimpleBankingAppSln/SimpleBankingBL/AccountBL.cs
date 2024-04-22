@@ -69,6 +69,11 @@ namespace SimpleBankingBL
             throw new AccountNotFoundException(); 
         }
 
+        public List<Transaction> getAllTransactions()
+        {
+            return _transactionRepo.GetAll();
+        }
+
         public List<Transaction>TransactionsOfUser(int userId)
         {
             List<Transaction> accounts = _transactionRepo.GetAll();

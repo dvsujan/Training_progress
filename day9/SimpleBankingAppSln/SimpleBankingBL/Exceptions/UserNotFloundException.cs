@@ -2,8 +2,7 @@
 
 namespace SimpleBankingBL.Exceptions
 {
-    [Serializable]
-    internal class UserNotFloundException : Exception
+    public class UserNotFloundException : Exception
     {
         string message = string.Empty;
         public UserNotFloundException()

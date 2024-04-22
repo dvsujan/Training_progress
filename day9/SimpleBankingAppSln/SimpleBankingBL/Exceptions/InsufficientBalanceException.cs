@@ -2,8 +2,7 @@
 
 namespace SimpleBankingBL.Exceptions
 {
-    [Serializable]
-    internal class InsufficientBalanceException : Exception
+    public class InsufficientBalanceException : Exception
     {
         string message = string.Empty;
         public InsufficientBalanceException()

@@ -16,5 +16,6 @@ namespace SimpleBankingBL
         public Account Transfer(int fromAccountId, int toAccountId, float amount);
         public List<Transaction> TransactionsOfUser(int userId); 
         public Account? GetAccount(int accountId);
+        public List<Transaction> getAllTransactions(); 
     }
 }

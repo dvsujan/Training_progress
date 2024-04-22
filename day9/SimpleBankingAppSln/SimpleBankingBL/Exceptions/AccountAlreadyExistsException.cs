@@ -2,7 +2,7 @@
 
 namespace SimpleBankingBL.Exceptions
 {
-    internal class AccountAlreadyExistsException : Exception
+    public class AccountAlreadyExistsException : Exception
     {
         string message = string.Empty;
         public AccountAlreadyExistsException()

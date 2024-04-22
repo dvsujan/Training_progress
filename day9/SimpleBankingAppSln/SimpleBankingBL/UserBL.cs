@@ -10,10 +10,7 @@ namespace SimpleBankingBL
         {
             _userRreposotory = new UserRepo() ; 
         }
-        public User AddUser(User user)
-        {
-            return _userRreposotory.Add(user);
-        }
+        public User AddUser(User user) => _userRreposotory.Add(user);
 
         public User ChangePassword(string email, string oldPassword, string newPassword)
         {
@@ -42,6 +39,11 @@ namespace SimpleBankingBL
                 }
             }
             throw new UserNotFloundException();
+        }
+
+        public List<User> getAllUsers()
+        {
+            return _userRreposotory.GetAll();
         }
 
         public User LoginUser(string email, string password)
@@ -75,6 +77,11 @@ namespace SimpleBankingBL
             User user = new User(name, email, password, -1);
             _userRreposotory.Add(user);
             return user;
+        }
+
+        public User UpdateUser(User user)
+        {
+            return _userRreposotory.Update(user);
         }
     }
 }

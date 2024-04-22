@@ -14,5 +14,7 @@ namespace SimpleBankingBL
         public bool LogoutUser();
         public  User ChangePassword(string email, string oldPassword, string newPassword);
         public User DeleteUser(string email, string password);
+        public User UpdateUser(User user);
+        List<User> getAllUsers();
     }
 }
