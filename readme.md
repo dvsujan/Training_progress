@@ -26,5 +26,8 @@ Structs , Enumus , Records , overloading , overriding
 Implemented Busines logic to the employee Request tracker app
 
 # day 9 
- assignment on simple banking application
+Simple Banking Application  
+Objective:  
+Create a console-based banking application in C# that allows users to perform basic banking operations such as creating an account, depositing funds, withdrawing funds, and checking the account balance.
+
 
