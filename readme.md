@@ -25,3 +25,6 @@ Implemented 3 layer application in c# including business logic , data logic and 
 Structs , Enumus , Records , overloading , overriding  
 Implemented Busines logic to the employee Request tracker app
 
+# day 9 
+ assignment on simple banking application
+
