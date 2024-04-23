@@ -31,3 +31,7 @@ Objective:
 Create a console-based banking application in C# that allows users to perform basic banking operations such as creating an account, depositing funds, withdrawing funds, and checking the account balance.
 
 
+# day 10
+Unit testing in c#  
+Implemented unit testing for clinic app  
+tracked code coverage > 80%
