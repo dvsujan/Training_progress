@@ -54,5 +54,21 @@ namespace ClinicAppReposotoryTest
             var result = repo.GetAll();
             Assert.AreEqual(result.Count, 1);
         }
+        [Test]
+        public void DoctorInsertDuplicate()
+        {
+            Doctor doc = new Doctor("doc1",DateTime.Now,"cardio","heart");
+            repo.Insert(doc);
+            var result = repo.Insert(doc);
+            Assert.IsNull(result);
+        }
+        
+        [Test]
+        public void DoctorUpdateNotFound()
+        {
+            Doctor doc = new Doctor("doc1",DateTime.Now,"cardio","heart");
+            var result = repo.Update(doc);
+            Assert.IsNull(result);
+        }
     }
 }

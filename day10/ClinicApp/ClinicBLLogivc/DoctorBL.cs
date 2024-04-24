@@ -80,7 +80,6 @@ namespace ClinicBLLogivc
                 throw new AppointmentNotFoundException();
             }
             return appointments;
-
         }
     }
 }

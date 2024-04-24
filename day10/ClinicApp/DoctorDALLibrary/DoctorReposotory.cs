@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +11,8 @@ namespace ClinicDALLibrary
     public class DoctorReposotory : IRepo<int, Doctor>
     {
         readonly Dictionary<int, Doctor>? doctors;
+
+        [ExcludeFromCodeCoverage]
         public DoctorReposotory()
         {
             doctors = new Dictionary<int, Doctor>();
@@ -29,13 +32,9 @@ namespace ClinicDALLibrary
         
         public List<Doctor> GetAll()
         {
-            if (doctors == null)
-            {
-                return null; 
-            }
+            
             return doctors.Values.ToList();
         }
-
         public Doctor Insert(Doctor item)
         {
             if (doctors.ContainsKey(item.Id) == true)

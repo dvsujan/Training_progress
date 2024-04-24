@@ -184,5 +184,45 @@ namespace ClinicAppBLTest
         {
             Assert.Throws<AppointmentNotFoundException>(() => _doctorBLService.GetAppointments(new Doctor()));
         }
+
+        [Test]
+        public void TestGetAppointmentsFail2()
+        {
+            Doctor doctor = new Doctor()
+            {
+                Id = 1,
+                Name = "Doctor 1",
+                Specialization = "D"
+            };
+            _doctorBLService.Insert(doctor);
+            var a = _doctorBLService.GetAppointments(doctor);
+            Assert.AreNotEqual(1, a.Count);
+        }
+        [Test]
+        public void TestGetAppointmentsFail3()
+        {
+            Doctor doctor = new Doctor()
+            {
+                Id = 1,
+                Name = "Doctor 1",
+                Specialization = "D"
+            };
+            _doctorBLService.Insert(doctor);
+            var a = _doctorBLService.GetAppointments(doctor);
+            Assert.AreNotEqual(0, a.Count);
+        }
+        [Test]
+        public void TestGetAppointmentsFail4()
+        {
+            Doctor doctor = new Doctor()
+            {
+                Id = 1,
+                Name = "Doctor 1",
+                Specialization = "D"
+            };
+            _doctorBLService.Insert(doctor);
+            var a = _doctorBLService.GetAppointments(doctor);
+            Assert.AreNotEqual(3, a.Count);
+        }
     }
 }

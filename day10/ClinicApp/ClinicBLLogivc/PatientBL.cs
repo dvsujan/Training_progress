@@ -62,7 +62,6 @@ namespace ClinicBLLogivc
             }
             return _patientRepo.Insert(item);
         }
-
         public Patient Update(Patient item)
         {
             for (int i = 0; i < _patientRepo.GetAll().Count; i++)
@@ -76,19 +75,6 @@ namespace ClinicBLLogivc
         }
         public List<Appointment> GetAppointments(Patient item)
         {
-            bool flag = false; 
-            for (int i = 0; i < _patientRepo.GetAll().Count; i++)
-            {
-                if (_patientRepo.GetAll()[i].Id == item.Id)
-                {
-                    flag = true;
-                    break;
-                }
-            }
-            if (flag == false)
-            {
-                throw new PatientNotFoundException();
-            }
             List<Appointment> appointments = new List<Appointment>();
             for (int i = 0; i < _appointmentRepo.GetAll().Count; i++)
             {
