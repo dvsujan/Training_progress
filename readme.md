@@ -39,3 +39,6 @@ tracked code coverage > 80%
 # day 11 
 More on unit testing  
 and language integrated query (LINQ)
+
+# day 12 
+Continued Day 11 Project, increased the code coverage from 92% to 100% and fully implemented the business logic
