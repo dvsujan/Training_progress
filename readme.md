@@ -42,3 +42,6 @@ and language integrated query (LINQ)
 
 # day 12 
 Continued Day 11 Project, increased the code coverage from 92% to 100% and fully implemented the business logic
+
+# day13
+converted the shopping application from day 11-12 from synchrnous to asyncrhonous using Task and async/await
