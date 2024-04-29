@@ -45,3 +45,8 @@ Continued Day 11 Project, increased the code coverage from 92% to 100% and fully
 
 # day13
 converted the shopping application from day 11-12 from synchrnous to asyncrhonous using Task and async/await
+
+# day14
+Intro to SQL   
+done some logical questions on c#  
+3 questions are done in the same solution in different project

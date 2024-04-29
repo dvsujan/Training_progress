@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\Training_progress\\day14\\day13projSln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E26C611F-AAB2-45A3-B3D6-AEA9B9F395C2}|day13proj\\day13proj.csproj|c:\\users\\vc\\desktop\\training_progress\\day14\\day13projsln\\day13proj\\minimun-depth-of-binary-tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26C611F-AAB2-45A3-B3D6-AEA9B9F395C2}|day13proj\\day13proj.csproj|solutionrelative:day13proj\\minimun-depth-of-binary-tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7AC0646-2866-47FC-9DC4-34B5304A0C46}|Excel_Sheet_column\\Excel_Sheet_column.csproj|c:\\users\\vc\\desktop\\training_progress\\day14\\day13projsln\\excel_sheet_column\\excel_sheet_column_title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7AC0646-2866-47FC-9DC4-34B5304A0C46}|Excel_Sheet_column\\Excel_Sheet_column.csproj|solutionrelative:excel_sheet_column\\excel_sheet_column_title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C8A556-7838-44AC-8755-834EC59C3442}|linked_list_cycle\\linked_list_cycle.csproj|c:\\users\\vc\\desktop\\training_progress\\day14\\day13projsln\\linked_list_cycle\\linked_list_cycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C8A556-7838-44AC-8755-834EC59C3442}|linked_list_cycle\\linked_list_cycle.csproj|solutionrelative:linked_list_cycle\\linked_list_cycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 207,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Linked_List_cycle.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day14\\day13projSln\\linked_list_cycle\\Linked_List_cycle.cs",
+              "RelativeDocumentMoniker": "linked_list_cycle\\Linked_List_cycle.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day14\\day13projSln\\linked_list_cycle\\Linked_List_cycle.cs",
+              "RelativeToolTip": "linked_list_cycle\\Linked_List_cycle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T09:36:14.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "excel_sheet_column_Title.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day14\\day13projSln\\Excel_Sheet_column\\excel_sheet_column_Title.cs",
+              "RelativeDocumentMoniker": "Excel_Sheet_column\\excel_sheet_column_Title.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day14\\day13projSln\\Excel_Sheet_column\\excel_sheet_column_Title.cs",
+              "RelativeToolTip": "Excel_Sheet_column\\excel_sheet_column_Title.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T09:24:21.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Minimun-depth-of-binary-tree.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day14\\day13projSln\\day13proj\\Minimun-depth-of-binary-tree.cs",
+              "RelativeDocumentMoniker": "day13proj\\Minimun-depth-of-binary-tree.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day14\\day13projSln\\day13proj\\Minimun-depth-of-binary-tree.cs",
+              "RelativeToolTip": "day13proj\\Minimun-depth-of-binary-tree.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:55:05.412Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
