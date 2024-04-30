@@ -50,3 +50,7 @@ converted the shopping application from day 11-12 from synchrnous to asyncrhonou
 Intro to SQL   
 done some logical questions on c#  
 3 questions are done in the same solution in different project
+
+# day 15 
+DDL , DML sql query 
+ER Diagrams 
