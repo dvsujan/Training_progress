@@ -54,3 +54,6 @@ done some logical questions on c#
 # day 15 
 DDL , DML sql query 
 ER Diagrams 
+
+# day 16 
+SQL Select queries
