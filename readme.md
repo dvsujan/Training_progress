@@ -57,3 +57,6 @@ ER Diagrams
 
 # day 16 
 SQL Select queries
+
+# day17 
+SQL Joins
