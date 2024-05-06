@@ -60,3 +60,6 @@ SQL Select queries
 
 # day17 
 SQL Joins
+
+# day 18
+ER Diagrams 
