@@ -63,3 +63,6 @@ SQL Joins
 
 # day 18
 ER Diagrams 
+
+# day 19 
+sql procedures , grant and revoke
