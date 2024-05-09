@@ -66,3 +66,9 @@ ER Diagrams
 
 # day 19 
 sql procedures , grant and revoke
+
+# day 20 
+into to .net entity framework 
+
+# day 21
+Entity framework code first approach
