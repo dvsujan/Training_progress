@@ -72,3 +72,7 @@ into to .net entity framework
 
 # day 21
 Entity framework code first approach
+
+
+# day 22
+ Employee Request Tracker Application using Entity Framework Code First Approach Compleated
