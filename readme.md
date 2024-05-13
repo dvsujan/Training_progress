@@ -76,3 +76,6 @@ Entity framework code first approach
 
 # day 22
  Employee Request Tracker Application using Entity Framework Code First Approach Compleated
+
+# day 23 
+ web api intro and basic syntax
