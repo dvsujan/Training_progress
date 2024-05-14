@@ -79,3 +79,6 @@ Entity framework code first approach
 
 # day 23 
  web api intro and basic syntax
+
+# day 24 
+    clinic app using web api to get all doctor , filter doctor by specilizations , update doctor experience

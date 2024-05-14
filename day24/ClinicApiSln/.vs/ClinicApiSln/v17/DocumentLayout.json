@@ -1,0 +1,179 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day24\\clinicapisln\\clinicapi\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|solutionrelative:clinicapi\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day24\\clinicapisln\\clinicapi\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|solutionrelative:clinicapi\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day24\\clinicapisln\\clinicapi\\contexts\\clinicappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|solutionrelative:clinicapi\\contexts\\clinicappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day24\\clinicapisln\\clinicapi\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|solutionrelative:clinicapi\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day24\\clinicapisln\\clinicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|solutionrelative:clinicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day24\\clinicapisln\\clinicapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|solutionrelative:clinicapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day24\\clinicapisln\\clinicapi\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|solutionrelative:clinicapi\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day24\\clinicapisln\\clinicapi\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|solutionrelative:clinicapi\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day24\\clinicapisln\\clinicapi\\repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C27CBC-B715-419A-AD81-2E8FE3AB10FE}|ClinicApi\\ClinicApi.csproj|solutionrelative:clinicapi\\repositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 302,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "ClinicApi\\Services\\DoctorService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\Services\\DoctorService.cs",
+              "RelativeToolTip": "ClinicApi\\Services\\DoctorService.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAwC4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:19:06.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClinicAppContext.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\contexts\\ClinicAppContext.cs",
+              "RelativeDocumentMoniker": "ClinicApi\\contexts\\ClinicAppContext.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\contexts\\ClinicAppContext.cs",
+              "RelativeToolTip": "ClinicApi\\contexts\\ClinicAppContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T08:59:01.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "ClinicApi\\Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\Models\\Doctor.cs",
+              "RelativeToolTip": "ClinicApi\\Models\\Doctor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T08:49:50.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\Program.cs",
+              "RelativeDocumentMoniker": "ClinicApi\\Program.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\Program.cs",
+              "RelativeToolTip": "ClinicApi\\Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T08:30:20.388Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 290,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ClinicApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\appsettings.json",
+              "RelativeToolTip": "ClinicApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-14T09:46:44.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "ClinicApi\\Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "ClinicApi\\Controllers\\DoctorController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwC0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:31:52.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\Repositories\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "ClinicApi\\Repositories\\DoctorRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\Repositories\\DoctorRepository.cs",
+              "RelativeToolTip": "ClinicApi\\Repositories\\DoctorRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:05:55.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\Interfaces\\IDoctorService.cs",
+              "RelativeDocumentMoniker": "ClinicApi\\Interfaces\\IDoctorService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\Interfaces\\IDoctorService.cs",
+              "RelativeToolTip": "ClinicApi\\Interfaces\\IDoctorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:15:01.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\Interfaces\\IRepo.cs",
+              "RelativeDocumentMoniker": "ClinicApi\\Interfaces\\IRepo.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day24\\ClinicApiSln\\ClinicApi\\Interfaces\\IRepo.cs",
+              "RelativeToolTip": "ClinicApi\\Interfaces\\IRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:04:24.691Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
