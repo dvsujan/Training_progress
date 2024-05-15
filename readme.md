@@ -82,3 +82,6 @@ Entity framework code first approach
 
 # day 24 
     clinic app using web api to get all doctor , filter doctor by specilizations , update doctor experience
+
+# day 25
+    Pizza Shop api including user authentication using DTO's 
