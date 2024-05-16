@@ -85,3 +85,6 @@ Entity framework code first approach
 
 # day 25
     Pizza Shop api including user authentication using DTO's 
+
+# day 26 
+    Pizza Shop api including user authorization using JWT token

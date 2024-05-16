@@ -1,0 +1,333 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\contexts\\pizzashopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\contexts\\pizzashopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\models\\dtos\\loginreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\models\\dtos\\loginreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\services\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\services\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\services\\pizzabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\services\\pizzabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\controllers\\pizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\controllers\\pizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\models\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\models\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\models\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\models\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\repositories\\pizzarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\repositories\\pizzarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\migrations\\20240515152927_addedpizzaprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\migrations\\20240515152927_addedpizzaprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|c:\\users\\vc\\desktop\\training_progress\\day26\\pizzashopapisln\\pizzashopapi\\migrations\\20240515152542_inital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE419CD-7D30-47DC-8C23-C1345B094188}|PizzaShopApi\\PizzaShopApi.csproj|solutionrelative:pizzashopapi\\migrations\\20240515152542_inital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 372,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Program.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\Program.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Program.cs",
+              "RelativeToolTip": "PizzaShopApi\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:12:11.605Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginReturnDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Models\\DTOs\\LoginReturnDTO.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\Models\\DTOs\\LoginReturnDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Models\\DTOs\\LoginReturnDTO.cs",
+              "RelativeToolTip": "PizzaShopApi\\Models\\DTOs\\LoginReturnDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:25:33.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PizzaShopContext.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\contexts\\PizzaShopContext.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\contexts\\PizzaShopContext.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\contexts\\PizzaShopContext.cs",
+              "RelativeToolTip": "PizzaShopApi\\contexts\\PizzaShopContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T14:07:43.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "PizzaShopApi\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACEAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:11:22.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "PizzaShopApi\\Interfaces\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:03:37.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Interfaces\\IRepo.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\Interfaces\\IRepo.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Interfaces\\IRepo.cs",
+              "RelativeToolTip": "PizzaShopApi\\Interfaces\\IRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:59:51.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserBl.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\services\\UserBl.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\services\\UserBl.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\services\\UserBl.cs",
+              "RelativeToolTip": "PizzaShopApi\\services\\UserBl.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T14:19:07.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "PizzaShopApi\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:59:49.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240515152542_inital.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Migrations\\20240515152542_inital.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\Migrations\\20240515152542_inital.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Migrations\\20240515152542_inital.cs",
+              "RelativeToolTip": "PizzaShopApi\\Migrations\\20240515152542_inital.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:25:42.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240515152927_addedPizzaPrice.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Migrations\\20240515152927_addedPizzaPrice.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\Migrations\\20240515152927_addedPizzaPrice.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Migrations\\20240515152927_addedPizzaPrice.cs",
+              "RelativeToolTip": "PizzaShopApi\\Migrations\\20240515152927_addedPizzaPrice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:29:27.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "userRegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Models\\DTOs\\userRegisterDTO.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\Models\\DTOs\\userRegisterDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Models\\DTOs\\userRegisterDTO.cs",
+              "RelativeToolTip": "PizzaShopApi\\Models\\DTOs\\userRegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:34:17.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PizzaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Repositories\\PizzaRepository.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\Repositories\\PizzaRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Repositories\\PizzaRepository.cs",
+              "RelativeToolTip": "PizzaShopApi\\Repositories\\PizzaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T14:34:04.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "PizzaShopApi\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T14:19:49.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Models\\DTOs\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\Models\\DTOs\\UserLoginDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Models\\DTOs\\UserLoginDTO.cs",
+              "RelativeToolTip": "PizzaShopApi\\Models\\DTOs\\UserLoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T14:12:06.647Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 314,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Models\\User.cs",
+              "RelativeToolTip": "PizzaShopApi\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T11:03:21.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pizza.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Models\\Pizza.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\Models\\Pizza.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Models\\Pizza.cs",
+              "RelativeToolTip": "PizzaShopApi\\Models\\Pizza.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAkwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T13:57:53.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PizzaBl.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\services\\PizzaBl.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\services\\PizzaBl.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\services\\PizzaBl.cs",
+              "RelativeToolTip": "PizzaShopApi\\services\\PizzaBl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:05:31.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PizzaController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Controllers\\PizzaController.cs",
+              "RelativeDocumentMoniker": "PizzaShopApi\\Controllers\\PizzaController.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\day26\\PizzaShopApiSln\\PizzaShopApi\\Controllers\\PizzaController.cs",
+              "RelativeToolTip": "PizzaShopApi\\Controllers\\PizzaController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:11:42.008Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
