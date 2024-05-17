@@ -88,3 +88,6 @@ Entity framework code first approach
 
 # day 26 
     Pizza Shop api including user authorization using JWT token
+
+# day27 
+    Implemented Role based authentication and route to raise request , viewrequests
