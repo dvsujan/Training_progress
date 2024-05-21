@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeRequestTrackerAPI", "EmployeeRequestTrackerAPI\EmployeeRequestTrackerAPI.csproj", "{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTest", "TestProject1\ApiTest.csproj", "{7CE08071-841E-4C5A-8818-CEB814F95186}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE08071-841E-4C5A-8818-CEB814F95186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE08071-841E-4C5A-8818-CEB814F95186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE08071-841E-4C5A-8818-CEB814F95186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE08071-841E-4C5A-8818-CEB814F95186}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E87EBC43-166D-44E3-ACAD-C232FF54D80E}
+	EndGlobalSection
+EndGlobal
