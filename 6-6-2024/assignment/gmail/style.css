@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  background: url(./triangle.svg) no-repeat; 
+  background-size: cover;
+  background-position: center;
+}
+.right {
+  flex: 50%;
+  display: flex;
+}
+.left {
+  padding:50px;  
+  flex: 50%;
+  font-size: 50px;
+  text-align: left;
+}
+.left ul{ 
+ padding-top:100px ; 
+ padding-left :50px ; 
+}
+.left li{ 
+    font-size:30px ; 
+    font-weight: bolder;
+}
+
+.blue-bold{ 
+    color:#2F80ED; 
+    font-weight:bold; 
+    width:450px ; 
+}
+.bold{ 
+    font-weight:bold; 
+    color:black; 
+}
+.bold-light{ 
+    color:black ; 
+    font-weight:400;
+}
+
+.android-img{ 
+    width:100% ; 
+    height:100% ; 
+    position:relative; 
+}
+
+.ios-img{ 
+    width:100% ; 
+    position:relative; 
+    height:100% ; 
+}
+.front-img{ 
+    position:relative; 
+    z-index: 3;
+    top: 30% ;
+    left:5%; 
+}
+.back-img{ 
+    position:relative; 
+    z-index: 1;
+    top: -35% ;
+    left:14%; 
+}
+img{ 
+    width:60% ; 
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+    width:100% ; 
+    height:100vh ;
+  }
+  .right {
+    flex: 100%;
+  }
+  .left {
+    flex: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .left p{ 
+    width:300px; 
+  }
+  .left li{ 
+    font-size: 25px;
+    text-align: left;
+  }
+}
