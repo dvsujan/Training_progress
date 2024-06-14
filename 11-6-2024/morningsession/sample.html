@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script>
+      num1 = 90;
+      var greet = () => alert("Hello");
+      var understandingVariables = () => {
+        let num1 = 200;
+        window.num1 = 300; //the global variable
+        console.log("The value of num1 in UnderstandingValriables " + num1);
+      };
+      var anotherMethod = () => {
+        understandingVariables();
+        console.log(num1);
+      };
+      var undertsndingArray = () => {
+        const scores = [100, 90, 89, 67, 70];
+        for (let index = 0; index < scores.length; index++) {
+          console.log(scores[index]);
+        }
+        console.log(scores[5]); //undefined\
+      };
+      var understandingNoValues = () => {
+        var name = null;
+        var age;
+        if (age === name) console.log("yes");
+        else console.log("no");
+      };
+      var understandingBoolean = () => {
+        var name = null;
+        var age;
+        var result = false;
+        var num = 0;
+        if (!name) console.log("No name given");
+        if (!age) console.log("No age given");
+        if (!result) console.log("No result given");
+        if (!num) console.log("The number is false");
+        if (name == result) console.log("Name and result are same");
+        else console.log("not same");
+      };
+      var understandingObject = () => {
+        var employee = {
+          name: "Ramu",
+          age: 21,
+          phone: "9876543210",
+        };
+        employee.price = 10987;
+        console.log(employee["price"]);
+      };
+      const understandingMultiDimentionalArray = () => {
+        const scores = [
+          [100, 100],
+          [90, 90],
+          [89, 89],
+          [67, 67],
+          [70, 70],
+        ];
+        for (let index = 0; index < scores.length; index++) {
+          for (let j = 0; j < scores[index].length; j++) {
+            console.log(scores[index][j]);
+          }
+        }
+      };
+      var understandingMap = () => {
+        const scores = [100, 90, 89, 67, 70];
+        var ranks = scores.map((n) => Math.round(n / 10, 0));
+        console.log(ranks);
+      };
+    </script>
+  </head>
+  <body>
+    <h1>hello from js</h1>
+    <button onclick="understandingMap()">click to call</button>
+  </body>
+</html>

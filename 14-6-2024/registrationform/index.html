@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Register</title>
+    <style>
+        .register-container {
+            width:100% ; 
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            height:100vh ; 
+        }
+    </style>
+
+  </head>
+  <body>
+    <div class="register-container">
+        <h1>Registration Form</h1>
+      <form class="container" novalidate>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Name"
+            id="txtName"
+            onblur="validateName()"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Phone"
+            id="txtPhone"
+            onblur="validatePhone()"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="date"
+            class="form-control"
+            placeholder="Date of Birth"
+            id="txtDOB"
+            onblur="validateDOB()"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Email"
+            id="txtEmail"
+            onblur="validateEmail()"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Age"
+            id="txtAge"
+            required
+            readonly
+          />
+        <div class="mb-3">
+          <input type="radio" id="genderMale" name="gender" />
+          <label for="genderMale"> Male </label>
+          <input type="radio" id="genderFemale" name="gender" />
+          <label for="genderFemale"> Female </label>
+        </div>
+        <div class="mb-3">
+          <input type="checkbox" id="chkQualification" />
+          <label for="chkQualification"> Qualification </label>
+        </div>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Profession"
+            id="professions"
+            list="ddlProfession"
+            onblur="validateProfession()"
+            required
+          />
+          <datalist id="ddlProfession">
+            <option value="Doctor">
+            <option value="Engineer">
+            <option value="Teacher">
+          </datalist>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </body>
+  <script>
+    function validateName() {
+      let txtName = document.getElementById("txtName");
+      if (txtName.value.length < 3) {
+        txtName.classList.add("is-invalid");
+        
+      } else {
+        txtName.classList.remove("is-invalid");
+        txtName.classList.add("is-valid");
+      }
+    }
+
+    function validatePhone() {
+      let txtPhone = document.getElementById("txtPhone");
+      if (txtPhone.value.length < 10) {
+        txtPhone.classList.add("is-invalid");
+      } else {
+        txtPhone.classList.remove("is-invalid");
+        txtPhone.classList.add("is-valid");
+      }
+    }
+    
+    function validateDOB() {
+      let txtDOB = document.getElementById("txtDOB");
+        if (new Date(txtDOB.value) >= new Date()) {
+            txtDOB.classList.add("is-invalid");
+            document.getElementById("txtAge").value = "";
+        } 
+        else if (new Date(txtDOB.value) < new Date("1900-01-01")) {
+            txtDOB.classList.add("is-invalid");
+            document.getElementById("txtAge").value = "";
+        }
+        else if (isNaN(new Date(txtDOB.value))) {
+            txtDOB.classList.add("is-invalid");
+            document.getElementById("txtAge").value = "";
+        }
+        else {
+            txtDOB.classList.remove("is-invalid");
+            txtDOB.classList.add("is-valid");
+            let dob = new Date(txtDOB.value);
+            let today = new Date();
+            let age = today.getFullYear() - dob.getFullYear();
+            document.getElementById("txtAge").value = age;
+        }
+    }
+    
+    function validateEmail() {
+      let txtEmail = document.getElementById("txtEmail");
+      if(!/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(txtEmail.value))  {
+        txtEmail.classList.add("is-invalid");
+      } else {
+        txtEmail.classList.remove("is-invalid");
+        txtEmail.classList.add("is-valid");
+      }
+    }
+
+    function validateProfession() {
+      let txtProfession = document.getElementById("professions");
+      if (txtProfession.value.length < 1) {
+        txtProfession.classList.add("is-invalid");
+      } else {
+        txtProfession.classList.remove("is-invalid");
+        txtProfession.classList.add("is-valid");
+      }
+    }
+    document.querySelector("form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      let isValid = true;
+      let inputs = document.querySelectorAll("input");
+      inputs.forEach((input) => {
+        if (!input.checkValidity()) {
+          isValid = false;
+          input.classList.add("is-invalid");
+        } else {
+          input.classList.remove("is-invalid");
+          input.classList.add("is-valid");
+        }
+      });
+      if (isValid) {
+        alert("Form submitted successfully");
+      }
+    });
+
+  </script>
+</html>
