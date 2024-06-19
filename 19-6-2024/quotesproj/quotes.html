@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quotes</title>
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="./styles/quotes.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/pngwing.com.png" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="./index.html"><h1>Quotes</h1></a>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="quotes.html">Quotes</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="search-container">
+      <input
+        type="search"
+        id="quote-search-author"
+        placeholder="Search quotes by author"
+      />
+      <button id="search-button">Search</button>
+      <select id="sort-quotes-alpha">
+        <option value="" disabled selected>Sort</option>
+        <option value="asc">ascending</option>
+        <option value="desc">descending</option>
+      </select>
+    </div>
+    <div id="quotes-container"></div>
+    <div id="pagination">
+      <button id="prev-page">Previous</button>
+      <span id="current-page"></span>
+      <button id="next-page">Next</button>
+    </div>
+  </body>
+  <script src="./scripts/quotes.js"></script>
+</html>
