@@ -1,0 +1,7 @@
+FROM postgres:latest
+
+ENV POSTGRES_DB=dbDocker
+ENV POSTGRES_USER=sujan
+ENV POSTGRES_PASSWORD=pass
+
+EXPOSE 5432
