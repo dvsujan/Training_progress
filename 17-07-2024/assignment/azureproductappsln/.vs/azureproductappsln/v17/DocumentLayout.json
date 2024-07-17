@@ -1,0 +1,179 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|c:\\users\\vc\\desktop\\training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|solutionrelative:azureproductapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|c:\\users\\vc\\desktop\\training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|solutionrelative:azureproductapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|c:\\users\\vc\\desktop\\training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|solutionrelative:azureproductapp\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|c:\\users\\vc\\desktop\\training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|solutionrelative:azureproductapp\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|c:\\users\\vc\\desktop\\training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|solutionrelative:azureproductapp\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|c:\\users\\vc\\desktop\\training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\migrations\\20240717094446_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|solutionrelative:azureproductapp\\migrations\\20240717094446_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|c:\\users\\vc\\desktop\\training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\contexts\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|solutionrelative:azureproductapp\\contexts\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|c:\\users\\vc\\desktop\\training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|solutionrelative:azureproductapp\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|c:\\users\\vc\\desktop\\training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46874116-5942-4AAC-9F66-86F15171AAAC}|azureproductapp\\azureproductapp.csproj|solutionrelative:azureproductapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 296,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "azureproductapp\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "azureproductapp\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T10:42:12.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\services\\ProductService.cs",
+              "RelativeDocumentMoniker": "azureproductapp\\services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\services\\ProductService.cs",
+              "RelativeToolTip": "azureproductapp\\services\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T10:39:45.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "azureproductapp\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "azureproductapp\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T10:36:14.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "azureproductapp\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "azureproductapp\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T09:47:01.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240717094446_init.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\Migrations\\20240717094446_init.cs",
+              "RelativeDocumentMoniker": "azureproductapp\\Migrations\\20240717094446_init.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\Migrations\\20240717094446_init.cs",
+              "RelativeToolTip": "azureproductapp\\Migrations\\20240717094446_init.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T09:44:46.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductContext.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\contexts\\ProductContext.cs",
+              "RelativeDocumentMoniker": "azureproductapp\\contexts\\ProductContext.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\contexts\\ProductContext.cs",
+              "RelativeToolTip": "azureproductapp\\contexts\\ProductContext.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAADwvygAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T09:05:05.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\Program.cs",
+              "RelativeDocumentMoniker": "azureproductapp\\Program.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\Program.cs",
+              "RelativeToolTip": "azureproductapp\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvyUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T08:54:23.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\Interfaces\\IRepo.cs",
+              "RelativeDocumentMoniker": "azureproductapp\\Interfaces\\IRepo.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\Interfaces\\IRepo.cs",
+              "RelativeToolTip": "azureproductapp\\Interfaces\\IRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T09:02:21.039Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 104,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "azureproductapp\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\Training_progress\\17-07-2024\\assignment\\azureproductappsln\\azureproductapp\\Models\\Product.cs",
+              "RelativeToolTip": "azureproductapp\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T09:00:14.053Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
