@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>spell-bee</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="body-left">
+        <input type="text" id="txt-inp">
+        <div style="float: left; width: 400px">
+      <div class="hex2-row" id="hex-1">
+        <div class="hex2 mid">
+          <div class="left"></div>
+          <div class="middle"></div>
+          <div class="right"></div>
+        </div>
+      </div>
+      <div class="hex2-row" id="hex-2">
+        <div class="hex2">
+          <div class="left"></div>
+          <div class="middle"></div>
+          <div class="right"></div>
+        </div>
+        <div class="hex2 even" id="hex-mand">
+          <div class="yellow-left "></div>
+          <div class="yellow-middle"></div>
+          <div class="yellow-right"></div>
+        </div>
+        <div class="hex2" id="hex-3">
+          <div class="left"></div>
+          <div class="middle"></div>
+          <div class="right"></div>
+        </div>
+      </div>
+      <div class="hex2-row" id="hex-4">
+        <div class="hex2">
+          <div class="left"></div>
+          <div class="middle"></div>
+          <div class="right"></div>
+        </div>
+        <div class="hex2 even" id="hex-5">
+          <div class="left"></div>
+          <div class="middle"></div>
+          <div class="right"></div>
+        </div>
+        <div class="hex2" id="hex-6">
+          <div class="left"></div>
+          <div class="middle"></div>
+          <div class="right"></div>
+        </div>
+      </div>
+    </div>
+    <span class="bottom-btns">
+        <button type="button" onclick="checkWord()">Enter</button>
+    </span>
+
+    </div>
+    <div class="body-right">
+        <h2 id="score">score 0</h2>
+        <div class="right-div">
+            <p id="words-cnt">You have found 0 word(s)</p>
+            <table id="words">
+
+            </table>
+        </div>
+    </div>
+    
+  </body>
+  <script src="./script.js"></script>
+</html>
